@@ -8,6 +8,14 @@ h1{
 	text-align: center;
 }
 
+a:link {
+    color: #FFFFF0;
+}
+
+a:visited {
+    color:#FFFFF1;
+	}
+
 p{
 	color: #FFFFF0;
 	text-align: center;
