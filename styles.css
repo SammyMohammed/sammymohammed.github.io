@@ -1,26 +1,59 @@
 body {
-	background-color:  #0F1010;
+	background-color:  #fffff0;
 }
 
 h1{
-	color: #FFFFF0;
-	font-family: Verdana, Geneva, sans-serif;
+	color: #2F4F4F;
+	font-family: "Google Sans";
+
 	text-align: center;
 }
 
 a:link {
-    color: #FFFFF0;
+    color: #2F4F4F;
 }
 
 a:visited {
-    color:#FFFFF1;
+    color:#551a8b;
 	}
+button {
+	size = 30px;
+}
+
+body {
+	font-family: "Google Sans";
+	font-size: 30px;
+	text-align: center;
+}
+form{
+	color: #2F4F4F
+	font-family: 'Google Sans';
+	font-size: 30px;
+  display: flex;
+	text-align: center;
+	align: center;
+	display: block;
+}
+
+#test{
+	text-align: center;
+	align: center;
+}
+
 
 p{
-	color: #FFFFF0;
+	color: #2F4F4F;
 	text-align: center;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 30px;
+	font-family: "Google Sans";
+	display: flex;
+	font-size: 24px;
+}
+
+#score{
+	text-align: center;
+	display: block;
+	align: center;
+	align-self: center;
 }
 
 #rectangle{
@@ -29,5 +62,5 @@ p{
     height:80%;
 		align-self: center;
 		font-size: 300px;
-    background-color:#0C0C0C;
+    background-color:#fffff0;
 }
