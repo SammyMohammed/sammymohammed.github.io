@@ -6,6 +6,7 @@ h1{
 	color: #2F4F4F;
 	font-family: "Google Sans";
 	display: block;
+	align-self: center;
 	text-align: center;
 }
 
@@ -45,7 +46,7 @@ p{
 	color: #2F4F4F;
 	text-align: center;
 	font-family: "Google Sans";
-	display: flex;
+	display: block;
 	font-size: 24px;
 }
 
