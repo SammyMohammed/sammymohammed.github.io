@@ -149,8 +149,7 @@ button.addEventListener('click', function(name1, name2) {
 name1.toLowerCase() == "hitomi torng" || name2.toLowerCase() == "hitomi torng"
 || name1.toLowerCase() == "tong torng" || name2.toLowerCase() == "tong torng" ) {
   document.querySelector("#score").innerHTML = "Compatibility of 0%. :) Get pranked."
-}
-  if (level > 100) {
+} else  if (level > 100) {
     document.querySelector("#score").innerHTML = "Compatibility of 100%"
   } else {
     document.querySelector("#score").innerHTML = ("Compatibility of " + level + "%" );
